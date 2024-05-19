@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-login",
+  "version": "1.0.0",
+  "description": "Simple login system using Node.js and Passport.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
